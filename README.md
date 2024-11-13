@@ -28,12 +28,12 @@ In order for a selected pivot to be a good pivot, it must create two partitions 
 
 There are three ways for a pivot to be, good, bad, or amazing. This gives us three cases for each, where each case is equally likely. This gives us 3^3 possibilities, as there are three options and three slots, first, median, and last. Meaning there are 27 possible combinations of pivots. 
 We can find the odds of each case happening easily.
-The cases are as follows bad = B, good = G, and amazing = A:
-(BBB) (BBG) (BBA) (BGB) (BAB) (BGG) (BGA) (BAA) (BAG)
-(GGG) (GGB) (GGA) (GBG) (GAG) (GBB) (GBA) (GAA) (GAB)
-(AAA) (AAG) (AAB) (AGA) (ABA) (AGG) (AGB) (ABB) (ABG)
-Looking at these, we can see that the median value is an A or G, amazing or good in 6 of the top row cases, 6 of the middle row cases, and 6 of the bottom row cases.
-So for 18/27 cases, the median is a good pivot value. In 66.66% of cases, median-of-three is the better option, making median-of-three better than picking just the first element.
+The cases are as follows bad = B, good = G, and too good = T:
+(BBB) (BBG) (BBT) (BGB) (BTB) (BGG) (BGT) (BTT) (BTG)
+(GGG) (GGB) (GGT) (GBG) (GTG) (GBB) (GBT) (GTT) (GTB)
+(TTT) (TTG) (TTB) (TGT) (TBT) (TGG) (TGB) (TBB) (TBG)
+Looking at these, we can see that the median value is good in 3 of the top row cases, 3 of the middle row cases, and 3 of the bottom row cases.
+So for 9/27 cases, the median is a good pivot value. In 33.33% of cases, median-of-three is the better option, making median-of-three worse than picking just the first element. As in 18/27 cases, median-of-three will select a worse value.
 
 
 ## Plagarism Statement and Sources
