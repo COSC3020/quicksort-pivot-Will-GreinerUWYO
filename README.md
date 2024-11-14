@@ -67,8 +67,8 @@ Variations of BGT including BTG, BGT, GBT, GTB, TGB, and TBG because the median 
 1/8 + 3/16 + 3/16 + 6/32 = 
 1/8 + 9/16 = 
 0.125 + 0.5625 = 
-0.6875 or 68.74%
-Because of this, we know that median-of-three is better than picking the first pivot value. This is because a 68.74% chance is better than a 50% chance.
+0.6875 or 68.75%
+Because of this, we know that median-of-three is better than picking the first pivot value. This is because a 68.75% chance is better than a 50% chance.
 
 
 ## Plagarism Statement and Sources
